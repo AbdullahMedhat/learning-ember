@@ -6,6 +6,9 @@ A short introduction of this app could easily go here.
 ## Main commond
 * `ember generate route scientists` to generate a router
 * `ember generate component people-list` to generate UI component, and you can pass `-gc`  to generate  the UI class.
+* `ember generate component-test <comp-name>` to generate test for a compnenet.
+* `ember generate acceptance-test <temp-name>` to generate test for a template
+* `ember t -s` to run tests.
 
 
 ## Installation
