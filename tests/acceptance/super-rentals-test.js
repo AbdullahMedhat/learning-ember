@@ -13,7 +13,7 @@ module('Acceptance | super rentals', function(hooks) {
     assert.dom('h1').hasText('SuperRentals');
     assert.dom('h2').hasText('Welcome to Super Rentals!');
 
-    assert.dom('.jumbo a.button').hasText('About Us');
+    assert.dom('.jumbo a.button').hasText('About');
     await click('.jumbo a.button');
 
     assert.equal(currentURL(), '/about');
@@ -27,7 +27,7 @@ module('Acceptance | super rentals', function(hooks) {
     assert.dom('h1').hasText('SuperRentals');
     assert.dom('h2').hasText('About Super Rentals');
 
-    assert.dom('.jumbo a.button').hasText('Contact Us');
+    assert.dom('.jumbo a.button').hasText('Contact');
     await click('.jumbo a.button');
 
     assert.equal(currentURL(), '/getting-in-touch');
